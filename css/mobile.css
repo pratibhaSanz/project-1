@@ -1,0 +1,74 @@
+@media  screen and (max-width :1300px) {
+    .navigation{
+        flex-direction: column;
+        margin-bottom: 23px;
+    }
+    .nav-left{
+        flex-direction: column;
+        text-align: center;
+        
+            display: flex;
+            
+            margin: 5px 45px;
+            font-size: 27px;
+            font-weight: bold;
+        
+    }
+    .nav-left a{
+        margin-bottom: -20px;
+    }
+    .form-input{
+        width: 50%;
+    }
+    .content-right {
+        /* width: 50%; */
+        display: none;
+      
+    }
+    .nav-right {
+        margin: 16px 49px;
+    }
+   
+    .home-article img {
+        padding: 0px 56px;
+        /* text-align: center; */
+        /* margin: 0px 111px; */
+        width: 30vw;
+    }
+    .home-articles h2 {
+        padding-left: 13px;
+        padding-top: 19px;
+        font-size: 25px;
+    }
+    .home-article{
+        flex-direction: column;
+    }
+    .home-article-content {
+        align-self: center;
+        /* padding: 0px 40px; */
+        text-align: center;
+    }
+    .year-box {
+        margin: 2px -26px;
+        top: 24px;
+        font-size: 13px;
+        display: flex;
+        left: 47vw;
+        
+
+    }
+    .year-box div {
+        
+        padding: 4px 8px;
+    }
+    .form-box input, textarea {
+        width: 63vw;
+    }
+    .row {
+        flex-direction: column;
+    }
+    .post-img {
+        height: 281px;
+        overflow: hidden;
+    }
+}
